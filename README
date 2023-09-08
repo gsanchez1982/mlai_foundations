@@ -1,0 +1,19 @@
+This is my Portfolio Project for Codecademy "Machine Learning / AI Engineering Foundations" Course.
+
+This project will showcase my Data Analytics skills using Python, Pandas, dataframes and databases, Jupyter Notebooks, and other tools.
+
+Project Scope:
+
+The goals of this project will be to analyze the relationship between the win-record of Club Tigres UANL,
+a soccer team which competes in the First Division of Mexico, and the playtime of their star player: Andre-Pierre Gignac.
+
+I will create a table which will record each of the last 500 matches Tigres has played in all competitions.
+This table will have an identifier, the name of the opposing team, whether the match was won, tied, or lost, and how many minutes Gignac played.
+If Gignac did not play, then it will record 0 minutes.
+
+I will analyze whether a longer amount of minutes played by Gignac correlates to wins.
+
+Some of this information may not be available in table form, so I will require to manually create the table in some cases.
+I will use Microsoft Excel for this task.
+
+- Guillermo Sanchez Estrada
