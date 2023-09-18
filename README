@@ -7,13 +7,14 @@ Project Scope:
 The goals of this project will be to analyze the relationship between the win-record of Club Tigres UANL,
 a soccer team which competes in the First Division of Mexico, and the playtime of their star player: Andre-Pierre Gignac.
 
-I will create a table which will record each of the last 500 matches Tigres has played in all competitions.
-This table will have an identifier, the name of the opposing team, whether the match was won, tied, or lost, and how many minutes Gignac played.
-If Gignac did not play, then it will record 0 minutes.
+I will create a table which will record each of the matches Tigres has played in LigaMX since the start of 2017 (about 240 or so).
+This table will be a list of tuples: One of the values will record whether Tigres played home ("H") or away ("A"),
+and the other value will be the result, whether the match was won, tied, or lost.
 
-I will analyze whether a longer amount of minutes played by Gignac correlates to wins.
+I will analyze whether there is a relationship between playing at home and wins.
 
-Some of this information may not be available in table form, so I will require to manually create the table in some cases.
-I will use Microsoft Excel for this task.
+The table will be created from the livescore-api.com API relevant to LigaMX.
+Since I'll be on the free version of this API, I will create a python script that can create the table,
+save the table to a different file, and then create another script to do the analysis.
 
 - Guillermo Sanchez Estrada
